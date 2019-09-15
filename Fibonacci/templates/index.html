@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content_fibonacci %}
+<form action="result" method="get" accept-charset="utf-8">
+		Please enter any positive number turn you want to print of a Fibonacci Series:
+		<input type="text" name="num" required><br>
+		<input type="submit">
+</form>
+{% endblock %}
